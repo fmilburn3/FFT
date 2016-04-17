@@ -12,6 +12,8 @@ Additions, enhancements, and changes:
 
 Tested: MSP-EXP432401R LaunchPad with Energia v17
         EK-TM4C123GXL LaunchPad with Energia v17
-        
+      
+User needs to change the analog resolution in fix_fft.h as well as debug print statements to match the microcontroller that they are using.
+  
 Frank Milburn   January 2016
 Released into the public domain
