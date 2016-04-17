@@ -32,7 +32,7 @@ Milliseconds for one conversion
 #define LOG2N              9     //log base 2 of the number of points, e.g. LOG2N = 8 is 256 points
 #define FREQ_RESOLUTION   20     //Frequency resolution of output in Hz
 #define ANALOG_IN          6     //analog input pin
-#define ANALOG_RESOLUTION 14     //CPU specific
+#define ANALOG_RESOLUTION 14     //CPU specific - e.g. set to 12 for TM4C123/129 and 14 for MSP432
 
 const int nPts = pow(2,LOG2N);
 const int hiFreq = FREQ_RESOLUTION * (nPts/2 - 1);
